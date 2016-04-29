@@ -4,6 +4,8 @@
 #define NK_INCLUDE_FIXED_TYPES = 1
 #define NK_INCLUDE_DEFAULT_ALLOCATOR = 1
 #define NK_INCLUDE_VERTEX_BUFFER_OUTPUT = 1
+#define NK_INCLUDE_FONT_BAKING = 1
+#define NK_INCLUDE_DEFAULT_FONT = 1
 #include "nuklear.h"
 
 

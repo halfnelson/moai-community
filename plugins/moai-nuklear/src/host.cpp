@@ -9,7 +9,15 @@
 //================================================================//
 
 //----------------------------------------------------------------//
-void AKUMOAINuklearContextInitialize () {
-	int t = 0;
-	
+void AKUMoaiNuklearAppFinalize() {
+}
+
+//----------------------------------------------------------------//
+void AKUMoaiNuklearAppInitialize() {
+}
+
+//----------------------------------------------------------------//
+void AKUMoaiNuklearContextInitialize() {
+
+	REGISTER_LUA_CLASS(MOAINuklear)
 }

@@ -2,6 +2,7 @@
 #define	MOAINUKLEAR_H
 #include <moai-core/headers.h>
 #include <moai-sim/MOAIRenderable.h>
+#include "nuklear_moai.h"
 
 //================================================================//
 // MOAINuklear
@@ -11,8 +12,12 @@
 */
 class MOAINuklear :
 	public MOAIRenderable {
-public:
 
+protected:
+	nk_context ctx;
+	struct nk_font_atlas atlas;
+public:
+	DECL_LUA_FACTORY(MOAINuklear)
 	//----------------------------------------------------------------//
 	MOAINuklear();
 	virtual				~MOAINuklear();
